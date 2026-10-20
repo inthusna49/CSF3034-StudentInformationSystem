@@ -30,6 +30,17 @@ public class StudentInformationSystem {
         int total = mark1 + mark2;
         //Display total
         System.out.println("Total mark: " + total);
+        
+        //Display message
+        if (total >= 150){
+            System.out.println("Result: Excelent");
+        }
+        else if (total >= 100) {
+            System.out.println("Result: Good");
+        }
+        else {
+            System.out.println("Result: Needs Improvement");
+        }
     }
     
 }
