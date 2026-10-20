@@ -18,12 +18,18 @@ public class StudentInformationSystem {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // display student name and student ID
+        // Display student name and student ID
         System.out.println("Student Name: Intan Nur Husna binti Morhisam");
         System.out.println("S87478");
-        
-        //store two marks using variables
-        
+      
+        //Calculate two marks
+        //Initialize marks
+        int mark1 = 67;
+        int mark2 = 88;
+        //Calculate total
+        int total = mark1 + mark2;
+        //Display total
+        System.out.println("Total mark: " + total);
     }
     
 }
