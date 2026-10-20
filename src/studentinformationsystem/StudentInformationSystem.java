@@ -21,6 +21,8 @@ public class StudentInformationSystem {
         // Display student name and student ID
         System.out.println("Student Name: Intan Nur Husna binti Morhisam");
         System.out.println("S87478");
+        //Update information
+        System.out.println("Semester: Semester 1");
       
         //Calculate two marks
         //Initialize marks
